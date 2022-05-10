@@ -75,7 +75,7 @@ def get_contact(lst_contact):
 
 # 주소록 삭제
 def del_contact(lst_contact, name):
-    for i, contact in enumerate(lst_contact):
+    for i, contact in lst_contact:
         if contact.name == name:
             del lst_contact[i]
 
